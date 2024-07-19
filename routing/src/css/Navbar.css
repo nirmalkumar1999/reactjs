@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    background-color: black;
+    color: orange;
+}
+.navbar .link{
+    color: rgb(252,252,251);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+.link.active{
+    color: yellowgreen;
+}

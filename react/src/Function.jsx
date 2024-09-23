@@ -39,7 +39,8 @@ function Function() {
   return (
     <>
       <h1>controlled function component form</h1>
-      <form onSubmit={formsubmit} style={{
+      <form onSubmit={formsubmit}
+       style={{
         border: "2px solid black",
         width: "270px",
         borderRadius: "10px"

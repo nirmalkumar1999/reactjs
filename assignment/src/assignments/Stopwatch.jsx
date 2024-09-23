@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import './Stopwatch.css'; 
+import './Stopwatch.css';
 
 const Stopwatch = () => {
     const [isRunning, setIsRunning] = useState(false);
@@ -46,8 +46,8 @@ const Stopwatch = () => {
             <div className="stopwatch-display">{formatTime(time)}</div>
             <div className="button-container">
                 {!isRunning ?
-                    <button onClick={startTimer}><i class="bi bi-play-fill h2"></i></button> :
-                    <button onClick={stopTimer}><i class="bi bi-stop-fill h2"></i></button>
+                    <button onClick={startTimer}><i className="bi bi-play-fill h2"></i></button> :
+                    <button onClick={stopTimer}><i className="bi bi-stop-fill h2"></i></button>
                 }
                 <button onClick={resetTimer}><i class="bi bi-alarm h2"></i></button>
             </div>

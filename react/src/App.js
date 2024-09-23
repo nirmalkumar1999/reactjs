@@ -1,10 +1,10 @@
 import React from 'react';
-// import First from './First.js';
+import First from './First.js';
 // import Navbar from './Navbar.jsx';
 // import Function from './Function.jsx';
 // import Class from './Class.jsx'
-import Useref from './Useref.jsx';
-import Createref from './Createref.jsx';
+// import Useref from './Useref.jsx';
+// import Createref from './Createref.jsx';
 function App() {
   // let age=20
   // let user={
@@ -31,12 +31,12 @@ function App() {
   // }
     return(
       <div>
-        {/* <First getdata={getdata}/> */}
+        <First/>
         {/* <Navbar getdata={getdata}/> */}
         {/*<Function></Function> */}
         {/*<Class></Class>*/}
-        <Useref></Useref>
-        <Createref></Createref>
+        {/* <Useref></Useref> */}
+        {/* <Createref></Createref> */}
       </div>
     )
 }

@@ -1,6 +1,8 @@
 // import RandomColor from "./assignments/RandomColor";
 
 import Stopwatch from "./assignments/Stopwatch";
+import Task8 from "./assignments/Task8";
+// import Task6 from "./Task6";
 // import TaskR from "./assignments/TaskR";
 
 // import Task6 from "./assignments/Task6";
@@ -21,6 +23,8 @@ function App() {
   {/* <Task6></Task6> */}
   <Stopwatch></Stopwatch>
     {/* <TaskR></TaskR> */}
+    {/* <Task6></Task6> */}
+    <Task8></Task8>
 </>
 );
 }

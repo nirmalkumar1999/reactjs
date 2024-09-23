@@ -34,7 +34,7 @@ export class Createref extends Component {
   render() {
     return (
       <div style={{
-        border:"2px solid black",
+        // border:"2px solid black",
         }}>
         <h1>uncontrolled form in class based</h1>
         <form onSubmit={this.submitHandler}>

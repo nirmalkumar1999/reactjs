@@ -18,3 +18,8 @@ export function reducer(state, action) {
             return state
     }
 }
+
+
+//npm vite @latest
+// npm install
+// npm run dev

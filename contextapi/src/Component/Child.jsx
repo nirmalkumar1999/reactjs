@@ -13,9 +13,11 @@ const{count,setCount}=useCount()
     <h2>{data}</h2> */}
     <h1 style={{background:"red",display:"inline-block"}}>child component</h1>
     <h1>{count}</h1> 
-    <button onClick={()=>setCount(count+1)}>+</button>
+    <button onClick={()=>setCount(count+1)}>inc</button>
+    <button onClick={()=>setCount(count-1)}>dec</button>
+
     <br />
-    <Child2 />
+    {/* <Child2 /> */}
     </>
 
 )

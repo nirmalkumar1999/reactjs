@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 
-function Task6() {
+function Task4() {
     const [flag,setflag] = useState(true)
     function colorhandler(){
       setflag(!flag)
@@ -18,4 +18,4 @@ function Task6() {
     )
 }
 
-export default Task6
+export default Task4

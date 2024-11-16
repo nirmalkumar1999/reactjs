@@ -26,8 +26,8 @@ function Task8() {
     return (
         <>
             <div>
-                <button onClick={createCircle}>Create Circle</button>
-                <button onClick={deleteCircle}>Delete Circle</button>
+                <button onClick={createCircle} style={{background:"green"}}>Create Circle</button>
+                <button onClick={deleteCircle} style={{background:"red"}}>Delete Circle</button>
             </div>
             <div>
                 <h3>No of circles :{circles.length}</h3>

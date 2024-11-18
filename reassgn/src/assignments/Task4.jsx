@@ -9,7 +9,7 @@ function Task4() {
             ...prevCircles,
             { isSelected: false, id: Math.trunc(Math.random() * 10000) },
         ]);
-    }, []);
+    }, [])
 
     // Toggle circle selection
     const makeSelected = useCallback((circleId) => {
@@ -75,7 +75,7 @@ function Task4() {
                             borderRadius: "50%",
                             backgroundColor: circle.isSelected ? "red" : "green",
                             cursor: 'pointer',
-                            border: '2px solid black',
+                            border: '2px solid white',
                         }}
                         onClick={() => makeSelected(circle.id)}
                     />
